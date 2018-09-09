@@ -1,0 +1,1 @@
+(function(){define(["es","libParsley"],function(){window.Parsley})}).call(this);

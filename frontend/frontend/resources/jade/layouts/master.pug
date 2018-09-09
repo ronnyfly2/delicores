@@ -1,0 +1,23 @@
+include ../config/page.pug
+include ../mixins/mixins.pug
+doctype html
++htmlIe()
+html(lang="#{page.lang}")
+	include _head.pug
+	block css
+	body
+		| @if (Session::has('flash_notification.message'))
+		.alert_notice(class!="alert-{{ Session::get('flash_notification.level') }}")
+			span {{ Session::get('flash_notification.message') }}
+			.icon.icon-close
+		| @endif
+		// coment
+		//- -- -- -- -- -- -- -- -- -- -- fin del header -- -- -- -- --  -- -- -- -- ----
+		//-.fondo_slider
+		| @include('layouts.header')
+		| @yield('content')
+
+		//- -- -- -- -- -- -- -- -- -- -- inicio del footer -- -- -- -- -- -- -- -- -- --
+		//- include _footer.pug
+		| @include('layouts.footer')
+		include _footer_scripts.pug

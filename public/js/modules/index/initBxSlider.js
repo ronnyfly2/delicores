@@ -1,0 +1,1 @@
+(function(){define(["libBxSlider"],function(){"use strict";var i;i=function(i,n){var r;r=i.bxSlider(n||{});(function(){$(window).resize(function(){r.reloadSlider()})})();return r};return{init:i}})}).call(this);

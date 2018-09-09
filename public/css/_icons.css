@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "icons";
+	src: url('fonts/icons/icons.eot');
+	src: url('fonts/icons/icons.eot?#iefix') format('eot'),
+		url('fonts/icons/icons.woff') format('woff'),
+		url('fonts/icons/icons.ttf') format('truetype'),
+		url('fonts/icons/icons.svg#icons') format('svg');
+}
+
+.icon:before {
+	font-family: "icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+	display: inline-block;
+}
+
+
+.icon-avatar:before {
+	content: "\E001";
+}
+
+.icon-cheers:before {
+	content: "\E002";
+}
+
+.icon-close:before {
+	content: "\E003";
+}
+
+.icon-double_arrow:before {
+	content: "\E004";
+}
+
+.icon-down_arrow:before {
+	content: "\E005";
+}
+
+.icon-down_chevron:before {
+	content: "\E006";
+}
+
+.icon-facebook:before {
+	content: "\E007";
+}
+
+.icon-g_plus:before {
+	content: "\E008";
+}
+
+.icon-left_arrow:before {
+	content: "\E009";
+}
+
+.icon-left_chevron:before {
+	content: "\E00A";
+}
+
+.icon-menu:before {
+	content: "\E00B";
+}
+
+.icon-minus:before {
+	content: "\E00C";
+}
+
+.icon-pin:before {
+	content: "\E00D";
+}
+
+.icon-plus:before {
+	content: "\E00E";
+}
+
+.icon-right_arrow:before {
+	content: "\E00F";
+}
+
+.icon-right_chevron:before {
+	content: "\E010";
+}
+
+.icon-search:before {
+	content: "\E011";
+}
+
+.icon-shopping_basket:before {
+	content: "\E012";
+}
+
+.icon-twitter:before {
+	content: "\E013";
+}
+
+.icon-up_arrow:before {
+	content: "\E014";
+}
+
+.icon-up_chevron:before {
+	content: "\E015";
+}

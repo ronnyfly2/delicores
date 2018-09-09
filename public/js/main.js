@@ -1,0 +1,1 @@
+(function(){var c;c=window.alpha;console.log("==> mod:");if(typeof c==="undefined"){c={}}(function(){var o,l,n;n=c.module;l=c.controller;o=c.action;console.log("==> mod: "+n+" - ctrl: "+l+" - act: "+o)})();require(["schema"])}).call(this);

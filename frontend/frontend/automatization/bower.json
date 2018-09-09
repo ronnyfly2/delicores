@@ -1,0 +1,34 @@
+{
+  "name": "delicores",
+  "version": "0.0.0",
+  "authors": [
+    "Ronny Cabrera <@ronnfly2>"
+  ],
+  "main": "/",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "selectivizr": "~1.0.2",
+    "html5shiv": "~3.7.2",
+    "requirejs": "~2.3.5",
+    "parsleyjs": "~2.1.3",
+    "fancybox": "~2.1.5",
+    "jquery": "~2.2.0",
+    "jquery-ui": "~1.11.4",
+    "underscore": "~1.8.3",
+    "bxslider-4": "bolster.bxSlider#^0.1.1",
+		"jq-utils": "^0.0.1",
+		"element-ui": "^2.4.6",
+		"vue":"^2.5.17"
+
+  },
+  "dependencies": {
+    "jquery-confirm": "^2.5.2"
+  }
+}

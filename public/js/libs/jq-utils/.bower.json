@@ -1,0 +1,30 @@
+{
+  "name": "jq-utils",
+  "main": "jq-utils.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jeanpaul1304/jqUtils",
+  "authors": [
+    "Jean Paul Diaz <jeanpaul1304@gmail.com>"
+  ],
+  "description": "Front utils",
+  "keywords": [
+    "jqutils"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "29c15602e8821a7bae009d07c04996cc9e89b659"
+  },
+  "_source": "https://github.com/jeanpaul1304/jqUtils.git",
+  "_target": "^0.0.1",
+  "_originalSource": "jq-utils"
+}

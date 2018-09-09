@@ -1,0 +1,1 @@
+(function(){define([],function(){var n;n=function(n){var i,o,f,l;for(l in n){l=l;if(l==="controllers"){for(f in n[l]){if(f===alpha.controller){for(o in n[l][f]){for(i in n[l][f][o]){if(i===alpha.action){n[l][f][o][i]()}}}}}}if(l==="allControllers"){n[l]()}}};n(window.schema)})}).call(this);

@@ -1,0 +1,38 @@
+include ../../config/page.pug
+include ../../mixins/mixins.pug
+footer
+	.box_center
+		ul
+			li
+				a(href="/") Inicio
+			li
+				a(href="/nuestra-empresa") Nuestra Empresa
+			li
+				a(href="/nuestros-cines") Nuestros cines
+		ul
+			li
+				a(href="/cartelera") Cartelera
+			li
+				a(href="/proximos-estrenos") Próximos estrenos
+			li
+				a(href="/eventos") Eventos
+		ul
+			li
+				a(href="/promociones") Promociones
+			li
+				a(href="/uvkard") FullCard
+		hr
+		ul.redes
+			li.text_li Siguenos en:
+			li
+				a(href="javascript:;")
+					i.icon.icon-mail
+			li
+				a(href="javascript:;")
+					i.icon.icon-twitter
+			li
+				a(href="javascript:;")
+					i.icon.icon-facebook
+		a.logo_footer(href="/")
+			img(src!="{{ asset('img/logo-uvk-gris.png') }}"+page.version,  alt="")
+		.clear

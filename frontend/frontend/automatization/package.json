@@ -1,0 +1,36 @@
+{
+  "name": "delicores",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@ronnyfly2",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.13.1",
+    "event-stream": "^3.3.1",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^3.0.2",
+    "gulp-iconfont": "^10.0.1",
+    "gulp-iconfont-css": "^2.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.7.0",
+    "gulp-svgicons2svgfont": "^5.0.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "nib": "^1.1.0",
+    "node-notifier": "^5.2.1",
+    "run-sequence": "^2.2.1",
+    "rupture": "^0.7.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "jquery-confirm": "^3.3.2",
+    "pug": "^2.0.3"
+  }
+}

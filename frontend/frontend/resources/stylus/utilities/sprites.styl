@@ -1,0 +1,21 @@
+//@import "compass/utilities/sprites"
+//@include all-my-icons-sprites
+
+.sprite
+	background-image url($imgPath+'sprite.png')
+	display inline-block
+	*display inline
+	vertical-align top
+	*zoom 1
+	&.sprite-icmenu
+		spritePosition($icMenu)
+		spriteWidth($icMenu)
+		spriteHeight($icMenu)
+	&.sprite-icslcmov
+		spritePosition($icSlcMov)
+		spriteWidth($icSlcMov)
+		spriteHeight($icSlcMov)
+	&.sprite-icdelete
+		spritePosition($icDelete)
+		spriteWidth($icDelete)
+		spriteHeight($icDelete)

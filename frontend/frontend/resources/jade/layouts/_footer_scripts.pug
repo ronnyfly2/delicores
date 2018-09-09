@@ -1,0 +1,14 @@
+include ../config/page.pug
+include ../mixins/mixins.pug
+.box_auth
+<?php $data = varView(); ?>
+script.
+	window.alpha = {
+		baseUrl: '{{$data["baseUrl"]}}',
+		urlMiddleware: '{{$data["urlMiddleware"]}}',
+		module: '{{$data["module"]}}',
+		controller: '{{$data["controller"]}}',
+		action: '{{$data["action"]}}'
+	 }
+script(src="{{ asset('js/libs/jquery/dist/jquery.min.js') }}"+page.version, type="text/javascript")
+script(data-main=page.static+"js/main.js"+page.version, src="{{ asset('js/libs/requirejs/require.js') }}"+page.version)
